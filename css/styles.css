@@ -1,0 +1,16 @@
+body {
+  margin: auto;
+  width: 90%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#show-results-btn {
+  width: max-content;
+  color: aqua;
+  background-color: blue;
+  position: relative;
+}
