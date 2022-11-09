@@ -11,22 +11,30 @@
 </head>
 
 <body>
-  <header>
-    <h1>Products</h1>
-  </header>
-  <main>
-    <section id="img-container">
-      <img id="img-one" src="" alt="">
-      <img id="img-two" src="" alt="">
-      <img id="img-three" src="" alt="">
-    </section>
-    <div id="show-results-btn">View Results</div>
-    <ul id="results-container"></ul>
-  </main>
-  <footer>
-    Ryan Papsin &copy;
-    <script src="./app.js"></script>
-  </footer>
+  <div class="container">
+    <header class="header">
+      <h1>Product Vote</h1>
+    </header>
+    <main>
+      <section id="img-container">
+        <img id="img-one" src="" alt="">
+        <img id="img-two" src="" alt="">
+        <img id="img-three" src="" alt="">
+      </section>
+      <div id="show-results-btn">View Results</div>
+      <div class="chart">
+        <div height="100px" width="100px">
+          <canvas id="my-chart"></canvas>
+        </div>
+      </div>
+
+    </main>
+    <footer class="footer">
+      &copy; Ryan Papsin
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+      <script src="./app.js"></script>
+    </footer>
+  </div>
 </body>
 
 </html>
