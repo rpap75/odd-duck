@@ -11,30 +11,31 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
-      <h1>Product Vote</h1>
-    </header>
-    <main>
+  <header class="header">
+    <h1>Product Vote</h1>
+  </header>
+  <main>
+    <div class="content-body">
       <section id="img-container">
         <img id="img-one" src="" alt="">
         <img id="img-two" src="" alt="">
         <img id="img-three" src="" alt="">
       </section>
-      <div id="show-results-btn">View Results</div>
-      <div class="chart">
-        <div height="100px" width="100px">
-          <canvas id="my-chart"></canvas>
+      <div class="graph-container">
+        <div id="show-results-btn">View Results</div>
+        <div class="chart">
+          <div height="100px" width="100px">
+            <canvas id="my-chart"></canvas>
+          </div>
         </div>
       </div>
-
-    </main>
-    <footer class="footer">
-      &copy; Ryan Papsin
-      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
-      <script src="./app.js"></script>
-    </footer>
-  </div>
+    </div>
+  </main>
+  <footer class="footer">
+    &copy; Ryan Papsin
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="./app.js"></script>
+  </footer>
 </body>
 
 </html>
