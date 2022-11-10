@@ -2,7 +2,7 @@
 
 // #pragma Globals
 
-let voteCount = 5;
+let voteCount = 25;
 let productArray = [];
 let previousArray = [];
 let reinstatedProducts = [];
